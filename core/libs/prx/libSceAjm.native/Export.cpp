@@ -212,4 +212,9 @@ int APS5_VABI libSceAjm_nativeUnknown_qkuXdR4_minus_Ihc_nid_no_patch() {
 }
 APS5_EXPORT("qkuXdR4-Ihc", libSceAjm_nativeUnknown_qkuXdR4_minus_Ihc_nid_no_patch);
 
+int APS5_VABI libSceAjm_nativeUnknown_KWoxiB9bVmA_nid_no_patch() {
+    NotImplemented_nid_no_patch(__func__);
+}
+APS5_EXPORT("KWoxiB9bVmA", libSceAjm_nativeUnknown_KWoxiB9bVmA_nid_no_patch);
+
 }
