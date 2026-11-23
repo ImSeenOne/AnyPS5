@@ -1403,21 +1403,6 @@ int APS5_VABI sceNpInGameMessageTerminate(std::int32_t libCtxId) {
     return inGameMessageContexts.erase(libCtxId) == 1 ? 0 : NP_IN_GAME_MESSAGE_ERROR_LIB_CONTEXT_NOT_FOUND;
 }
 
-int APS5_VABI sceNpSnsFacebookCreateRequest() {
-    NotImplemented_nid_no_patch(__func__);
-    return 0;
-}
-
-int APS5_VABI sceNpSnsFacebookDeleteRequest() {
-    NotImplemented_nid_no_patch(__func__);
-    return 0;
-}
-
-int APS5_VABI sceNpSnsFacebookGetAccessToken() {
-    NotImplemented_nid_no_patch(__func__);
-    return 0;
-}
-
 }
 
 extern "C" {

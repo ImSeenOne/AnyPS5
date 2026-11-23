@@ -5,6 +5,9 @@
 extern "C" {
 
 int APS5_VABI sceNpSnsFacebookAbortRequest();
+int APS5_VABI sceNpSnsFacebookCreateRequest();
+int APS5_VABI sceNpSnsFacebookDeleteRequest();
+int APS5_VABI sceNpSnsFacebookGetAccessToken();
 int APS5_VABI sceNpSnsIntAbortRequest();
 int APS5_VABI sceNpSnsIntCreateRequest();
 int APS5_VABI sceNpSnsIntDeleteRequest();

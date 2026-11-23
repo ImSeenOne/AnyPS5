@@ -273,9 +273,6 @@ int APS5_VABI sceNpInGameMessageInitialize(std::size_t poolSize, void* option);
 int APS5_VABI sceNpInGameMessagePrepare(std::int32_t libCtxId, std::int32_t handleId, std::int32_t userId, std::uint64_t callbackAddress, void* userdata);
 int APS5_VABI sceNpInGameMessageSendData(std::int32_t libCtxId, const void* destination, const void* source, const void* message);
 int APS5_VABI sceNpInGameMessageTerminate(std::int32_t libCtxId);
-int APS5_VABI sceNpSnsFacebookCreateRequest();
-int APS5_VABI sceNpSnsFacebookDeleteRequest();
-int APS5_VABI sceNpSnsFacebookGetAccessToken();
 
 int APS5_VABI _ZN3sce2np10NpOnlineId13GetNpOnlineIdERKNS0_4UserEP13SceNpOnlineId(const UserObject* user, SceNpOnlineId* out);
 int APS5_VABI _ZN3sce2np10NpOnlineId13GetNpOnlineIdERKNS0_4UserEPS1_(const UserObject* user, NpOnlineIdObject* out);
